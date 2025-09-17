@@ -83,9 +83,7 @@ function App() {
               { title: 'Store App', imgSrc: 'https://plus.unsplash.com/premium_photo-1664475347754-f633cb166d13?q=80&w=2070&auto=format&fit=crop', desc: 'A comprehensive store application with user authentication, product listings, and a shopping cart.', website: 'https://store-app.example.com' },
               { title: 'Landing Page', imgSrc: 'https://plus.unsplash.com/premium_photo-1684785617153-b57947c147c1?q=80&w=2070&auto=format&fit=crop', desc: 'An e-commerce platform featuring product categories, search functionality, and a checkout system.', website: 'https://ecommerce-website.example.com' },
               { title: 'Blog app', imgSrc: 'https://plus.unsplash.com/premium_photo-1684785617153-b57947c147c1?q=80&w=2070&auto=format&fit=crop', desc: 'An e-commerce platform featuring product categories, search functionality, and a checkout system.', website: 'https://github.com/Yassen717/Blog-app' },
-              { title: 'Store App', imgSrc: 'https://plus.unsplash.com/premium_photo-1664475347754-f633cb166d13?q=80&w=2070&auto=format&fit=crop', desc: 'A comprehensive store application with user authentication, product listings, and a shopping cart.', website: 'https://store-app.example.com' },
-              { title: 'Landing Page', imgSrc: 'https://plus.unsplash.com/premium_photo-1684785617153-b57947c147c1?q=80&w=2070&auto=format&fit=crop', desc: 'An e-commerce platform featuring product categories, search functionality, and a checkout system.', website: 'https://ecommerce-website.example.com' },
-              { title: 'E-commerce Website', imgSrc: 'https://plus.unsplash.com/premium_photo-1684785617153-b57947c147c1?q=80&w=2070&auto=format&fit=crop', desc: 'An e-commerce platform featuring product categories, search functionality, and a checkout system.', website: 'https://ecommerce-website.example.com' },
+          
             ].map(project => (
               <div key={project.title} className={`rounded-md p-4 shadow-lg transition-transform transform hover:scale-105 ${isDarkMode ? 'bg-gray-700 text-gray-200' : 'bg-white text-gray-700'}`}>
                 <img src={project.imgSrc} alt={project.title} className="rounded-t-md" />
@@ -115,7 +113,7 @@ function App() {
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-4 gap-4">
               <li>
-                <a href="https://www.linkedin.com/in/yassen-ibrahim-62ab9b26b/" className="hover:text-blue-400 transition duration-300" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/yassen-ibrahim-993117363/" className="hover:text-blue-400 transition duration-300" aria-label="LinkedIn">
                   <FaLinkedin size={24} />
                 </a>
               </li>

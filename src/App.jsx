@@ -206,14 +206,16 @@ function App() {
                   features: ['User Authentication', 'Product Catalog', 'Real-time Search', 'Shopping Cart', 'Wishlist', 'Order Tracking', 'Secure Checkout', 'Newsletter'],
                   status: 'Live'
                 },
-                { 
-                  title: 'Modern Landing Page', 
-                  imgSrc: 'https://plus.unsplash.com/premium_photo-1684785617153-b57947c147c1?q=80&w=2070&auto=format&fit=crop', 
-                  desc: 'Responsive and interactive landing page with smooth animations, modern design principles, and optimized for conversion. Features beautiful UI/UX design.', 
-                  website: '#',
-                  tech: ['React', 'TailwindCSS', 'Framer Motion'],
-                  status: 'In Progress'
-                },
+                 { 
+    title: 'Planova - Project Management System', 
+    imgSrc: 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop', 
+    desc: 'Full-stack project management system with real-time collaboration, authentication, task tracking, and team management. Built with Next.js, React, TypeScript, Prisma, and PostgreSQL.', 
+    website: 'https://planova-p-git-main-yassenyassenyasy-gmailcoms-projects.vercel.app/',
+    github: 'https://github.com/Yassen717/planova',
+    tech: ['Next.js', 'React', 'TypeScript', 'Prisma', 'PostgreSQL'],
+    features: ['Real-time Collaboration', 'Authentication', 'Task Tracking', 'Team Management', 'Kanban Board', 'Dashboard Analytics'],
+    status: 'Live'
+  },
                 { 
                   title: 'Blog Platform', 
                   imgSrc: 'https://plus.unsplash.com/premium_photo-1684785617153-b57947c147c1?q=80&w=2070&auto=format&fit=crop', 

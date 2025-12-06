@@ -207,10 +207,10 @@ function App() {
                   status: 'Live'
                 },
                  { 
-    title: 'Planova - Project Management System', 
-    imgSrc: 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop', 
+                  title: 'Planova - Project Management System', 
+                  imgSrc: '/src/assets/planova-screenshot.png', 
     desc: 'Full-stack project management system with real-time collaboration, authentication, task tracking, and team management. Built with Next.js, React, TypeScript, Prisma, and PostgreSQL.', 
-    website: 'https://planova-p-git-main-yassenyassenyasy-gmailcoms-projects.vercel.app/',
+    website: 'https://planova-p.vercel.app/',
     github: 'https://github.com/Yassen717/planova',
     tech: ['Next.js', 'React', 'TypeScript', 'Prisma', 'PostgreSQL'],
     features: ['Real-time Collaboration', 'Authentication', 'Task Tracking', 'Team Management', 'Kanban Board', 'Dashboard Analytics'],
@@ -218,7 +218,7 @@ function App() {
   },
                 {
   title: 'HabitFlow - Smart Habit Tracker',
-  imgSrc: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop',
+  imgSrc: '/src/assets/habitflow-screenshot.png',
   desc: 'Full-stack gamified habit tracking application with JWT authentication, real-time progress visualization, and achievement system. Features automatic token refresh, streak calculation, points-based rewards, and comprehensive analytics dashboard. Built with React 19, Express, Prisma, and PostgreSQL.',
   website: 'https://habitflow-three.vercel.app/', 
   github: 'https://github.com/Yassen717/HabitFlow',

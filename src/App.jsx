@@ -216,14 +216,16 @@ function App() {
     features: ['Real-time Collaboration', 'Authentication', 'Task Tracking', 'Team Management', 'Kanban Board', 'Dashboard Analytics'],
     status: 'Live'
   },
-                { 
-                  title: 'Blog Platform', 
-                  imgSrc: 'https://plus.unsplash.com/premium_photo-1684785617153-b57947c147c1?q=80&w=2070&auto=format&fit=crop', 
-                  desc: 'Full-featured blogging platform with rich text editor, user authentication, comments system, and admin dashboard. Perfect for content creators.', 
-                  website: 'https://github.com/Yassen717/Blog-app',
-                  tech: ['Node.js', 'Express', 'MongoDB', 'React'],
-                  status: 'Live'
-                }
+                {
+  title: 'HabitFlow - Smart Habit Tracker',
+  imgSrc: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop',
+  desc: 'Full-stack gamified habit tracking application with JWT authentication, real-time progress visualization, and achievement system. Features automatic token refresh, streak calculation, points-based rewards, and comprehensive analytics dashboard. Built with React 19, Express, Prisma, and PostgreSQL.',
+  website: 'https://habitflow-three.vercel.app/', 
+  github: 'https://github.com/Yassen717/HabitFlow',
+  tech: ['React 19', 'TypeScript', 'Express.js', 'Prisma', 'PostgreSQL', 'Tailwind CSS', 'Framer Motion'],
+  features: ['JWT Authentication', 'Habit Tracking', 'Streak Calculation', 'Gamification System', 'Achievement Badges', 'Progress Charts', 'Dark Mode', 'Points & Rewards'],
+  status: 'Live'
+},
               ].map((project, index) => (
                 <div key={project.title} className={`${isVisible.projects ? 'animate-slide-up' : 'opacity-0'} group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 ${isDarkMode ? 'bg-gray-700' : 'bg-white'}`} style={{animationDelay: `${index * 0.2}s`}}>
                   <div className="relative overflow-hidden">

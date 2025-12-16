@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FaLinkedin, FaGithub, FaAddressBook, FaMoon, FaSun, FaBars, FaTimes, FaCode, FaRocket, FaDownload, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import planovaImg from './assets/planova-screenshot.png';
+import habitflowImg from './assets/habitflow-screenshot.png';
+
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -208,7 +211,7 @@ function App() {
                 },
                  { 
                   title: 'Planova - Project Management System', 
-                  imgSrc: '/src/assets/planova-screenshot.png', 
+                  imgSrc: planovaImg, 
     desc: 'Full-stack project management system with real-time collaboration, authentication, task tracking, and team management. Built with Next.js, React, TypeScript, Prisma, and PostgreSQL.', 
     website: 'https://planova-p.vercel.app/',
     github: 'https://github.com/Yassen717/planova',
@@ -218,7 +221,7 @@ function App() {
   },
                 {
   title: 'HabitFlow - Smart Habit Tracker',
-  imgSrc: '/src/assets/habitflow-screenshot.png',
+  imgSrc: habitflowImg,
   desc: 'Full-stack gamified habit tracking application with JWT authentication, real-time progress visualization, and achievement system. Features automatic token refresh, streak calculation, points-based rewards, and comprehensive analytics dashboard. Built with React 19, Express, Prisma, and PostgreSQL.',
   website: 'https://habitflow-three.vercel.app/', 
   github: 'https://github.com/Yassen717/HabitFlow',

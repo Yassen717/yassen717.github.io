@@ -370,7 +370,7 @@ function App() {
                 </div>
                 
                 <div className="mt-8">
-                  <a href="#contact" className="bg-gradient-primary text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 inline-flex items-center gap-2">
+                  <a href="/Yassen-Ibrahim-Resume.pdf" download="Yassen-Ibrahim-Resume.pdf" className="bg-gradient-primary text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 inline-flex items-center gap-2">
                     <FaDownload /> Download Resume
                   </a>
                 </div>

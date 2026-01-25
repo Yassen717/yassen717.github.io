@@ -3,6 +3,7 @@ import { FaLinkedin, FaGithub, FaAddressBook, FaMoon, FaSun, FaBars, FaTimes, Fa
 import { MdEmail } from "react-icons/md";
 import planovaImg from './assets/planova-screenshot.png';
 import habitflowImg from './assets/habitflow-screenshot.png';
+import cartifyImg from './assets/cartify-app.png';
 
 
 function App() {
@@ -200,13 +201,13 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 { 
-                  title: 'ShopVipe E-Commerce Platform', 
-                  imgSrc: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop', 
-                  desc: 'Full-featured e-commerce platform built with Next.js 15 and React 19. Features user authentication, product catalog with advanced filtering, real-time search, shopping cart, wishlist, order tracking, and secure checkout process.', 
-                  website: 'https://shopvipes.netlify.app/',
-                  github: 'https://github.com/Yassen717/ShopVipe',
-                  tech: ['Next.js 15', 'React 19', 'TypeScript', 'Tailwind CSS 4', 'Appwrite'],
-                  features: ['User Authentication', 'Product Catalog', 'Real-time Search', 'Shopping Cart', 'Wishlist', 'Order Tracking', 'Secure Checkout', 'Newsletter'],
+                  title: 'Cartify - E-Commerce Platform', 
+                  imgSrc: cartifyImg, 
+                  desc: 'Full-stack e-commerce platform with JWT authentication, product discovery, shopping cart, wishlist, and admin dashboard. Features Redis caching, real-time search with advanced filtering, and comprehensive order management. Built with React 19, Express, Prisma, and PostgreSQL.', 
+                  website: 'https://cartify-gold.vercel.app/',
+                  github: 'https://github.com/Yassen717/Cartify',
+                  tech: ['React 19', 'TypeScript', 'Express.js', 'Prisma', 'PostgreSQL', 'Redis', 'Zustand'],
+                  features: ['JWT Authentication', 'Product Discovery', 'Shopping Cart', 'Wishlist', 'Admin Dashboard', 'Order Management', 'Reviews & Ratings', 'Redis Caching'],
                   status: 'Live'
                 },
                  { 

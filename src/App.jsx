@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaLinkedin, FaGithub, FaAddressBook, FaMoon, FaSun, FaBars, FaTimes, FaCode, FaRocket, FaDownload, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import planovaImg from './assets/planova-screenshot.png';
+import planovaImg from './assets/planova-app.png';
 import habitflowImg from './assets/habitflow-screenshot.png';
 import cartifyImg from './assets/cartify-app.png';
 
